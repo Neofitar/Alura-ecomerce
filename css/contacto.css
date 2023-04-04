@@ -1,23 +1,40 @@
 .contacto {
-    padding: 2% 5%;
+    padding: 3% 5%;
     display: flex;
     justify-content: space-around;
     background-color: var(--background-vino);
+    
 }
 
 .contacto-elementos {
     display: flex;
-    width: 400px;
+    width: 100%;
     margin-top: 20px;
+}
+
+.logo1 {
+    display: flex;
+}
+
+.menu{
+    width: 100%;
+}
+
+.menu_elementos ul {
+    width: 100%;
+    padding: 0;
 }
 
 .menu_elementos {
     margin-top: 0;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 100%;
     height: 150px;
+    padding-left: 20%;
+
 }
+
 
 .menu_titulo a {
     text-decoration: none;
@@ -36,6 +53,7 @@
 
 .contacto_form {
     display: block;
+    width: 100%;
 }
 
 .form_titulo {
@@ -47,7 +65,7 @@
 .campo {
     display: block;
     align-items: center;
-    width: 500px;
+    width: 90%;
     background-color: var(--background-blanco);
     border-radius: 10px;
     padding: 15px;
@@ -63,6 +81,7 @@
     font-family: var(--font-gothic-text);
     margin-bottom: 5px;
 }
+
 
 input, textarea:focus{
     box-shadow: none;
@@ -84,6 +103,10 @@ input, textarea:focus{
     margin: 0;
     width: 100px;
     margin-top: 10px;
+}
+
+.logo {
+    width: 25%;
 }
 
 .logo1_img {
@@ -108,37 +131,43 @@ input, textarea:focus{
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
     .contacto {
         padding: 3%;
+        width: 100%;
         display: flex;
+        justify-content: space-around;
     }
 
     .contacto-elementos {
+        width: 20%;
         display: flex;
         flex-direction: column;
-        padding-right: 40px;
+        padding-right: 5%;
+    }
+
+    .contacto_form {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .form_titulo {
+        width: 77%;
+    }
+
+    .form_elementos {
+        width: 95%;
+
     }
 
     .menu_elementos {
         display: flex;
         flex-direction: column;
-        width: 300px;
-        height: 150px;
         padding: 0;
         margin-top: 20px;
-    }
-
-
-    .campo {
-        width: 370px;
-    }
-
-    .contacto_form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
 }
@@ -146,23 +175,48 @@ input, textarea:focus{
 
 @media screen and (max-width: 770px) {
     .contacto {
-        justify-content: center;
+        width: 100%;
+        justify-content: space-between;
         flex-direction: column;
         align-items: center;
+        padding: 0;
     }
 
     .contacto-elementos {
-        justify-content: center;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        padding: 0;
+        width: 50%;
         margin-bottom: 20px;
+        padding: 0;
     }
+
+    .logo1 {
+        display: flex;
+    }
+
     .menu_elementos {
         padding: 0;
-        width: 300px;
         justify-content: center;
         flex-direction: column;
         align-items: center;   
     }
+
+    .contacto_form {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacto_form {
+        margin-bottom: 2%;
+    }
+
+    .form_titulo {
+        width: 95%;
+        text-align: center;
+    }
+
 }
