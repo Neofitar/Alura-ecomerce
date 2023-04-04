@@ -113,6 +113,9 @@ input:focus {
     .cabecera {
         padding: 3%;
     }
+    .logo {
+        margin-right: 3%;
+    }
 
     .cabecera_buscador input {
         width: 300px;
