@@ -19,7 +19,7 @@ header {
 
 .logo_img {
     width: 30px;
-    height: 30px;
+    height: 33px;
     padding-right: 5px;
 }
 
@@ -27,12 +27,16 @@ header {
     font-family: var(--font-gothic-tittle);
     color: var(--background-blanco);
     font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .logo_p2 {
     font-family: var(--font-gothic-tittle);
     color: var(--background-vino-claro);
     font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .cabecera_usuario {

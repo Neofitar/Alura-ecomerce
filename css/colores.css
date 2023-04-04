@@ -10,5 +10,6 @@
 
 body {
     background-color: var(--background-negro);
+    margin: 0;
 }
 
