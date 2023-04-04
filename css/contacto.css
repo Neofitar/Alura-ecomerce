@@ -1,0 +1,152 @@
+.contacto {
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--background-vino);
+}
+
+.logo {
+    margin-right: 60px;
+}
+
+.contacto-elementos {
+    display: flex;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.menu_elementos {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+}
+
+.menu_titulo a {
+    text-decoration: none;
+    color: var(--background-blanco);
+    font-family: var(--font-gothic-text);
+    font-size: 20px;
+    text-align: left;
+    height: 60px;
+
+}
+
+.menu_titulo {
+    height: 80px;
+}
+
+
+.contacto_form {
+    display: block;
+}
+
+.form_titulo {
+    color: var(--background-blanco);
+    font-family: var(--font-gothic-tittle);
+}
+
+
+.campo {
+    display: block;
+    align-items: center;
+    width: 500px;
+    background-color: var(--background-blanco);
+    border-radius: 10px;
+    padding: 15px;
+    font-family: var(--font-gothic-text);
+    margin-bottom: 10px;
+}
+
+.campo input { 
+    width: 90%;
+    height: 8px;
+    background-color:transparent;
+    border: none;
+    font-family: var(--font-gothic-text);
+    margin-bottom: 5px;
+}
+
+input, textarea:focus{
+    box-shadow: none;
+    border: none;
+    outline: 0;
+}
+
+.campo textarea { 
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background-color:transparent;
+    resize: none;
+    font-family: var(--font-gothic-text);
+}
+
+.contacto_form button {
+    margin: 0;
+    width: 100px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .contacto {
+        padding: 3%;
+        display: flex;
+    }
+
+    .contacto-elementos {
+        display: flex;
+        flex-direction: column;
+        padding-right: 40px;
+    }
+
+    .logo {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .menu_elementos {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 150px;
+    }
+
+
+    .campo {
+        width: 370px;
+    }
+
+    .contacto_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+@media screen and (max-width: 770px) {
+    .contacto {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto-elementos {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .menu_elementos {
+        width: 300px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;   
+    }
+}

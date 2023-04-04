@@ -1,0 +1,14 @@
+:root {
+    --background-negro:#211E29;
+    --background-blanco:#D9D6DF;
+    --background-gris:#4E4C59;
+    --background-vino:#453039;
+    --background-vino-claro:#8a7385;
+    --font-gothic-tittle:'UnifrakturCook', cursive;
+    --font-gothic-text:'Grenze Gotisch', cursive;
+}
+
+body {
+    background-color: var(--background-negro);
+}
+

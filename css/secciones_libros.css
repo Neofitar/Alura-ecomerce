@@ -1,0 +1,98 @@
+.libros_secciones {
+    padding: 2% 5%;
+}
+
+.secciones_ver {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo_seccion {
+    font-family: var(--font-gothic-tittle);
+    color: var(--background-blanco);
+    font-size: 25px;
+}
+
+.btn_ver {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-family: var(--font-gothic-tittle);
+    color: var(--background-vino-claro);
+    cursor: pointer;
+    margin: 20px;
+
+}
+
+.btn_ver:hover {
+    border-radius: 90px;
+    padding-right: 20px;
+    border-right: 5px solid;
+}
+
+.libros_total {
+    display: flex;
+    justify-content: space-around;
+}
+
+.libro {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.libro_img {
+    background-color: aqua;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.libro_titulo {
+    color: var(--background-blanco);
+    font-family: var(--font-gothic-tittle);
+    font-size: 18px;
+    margin: 5px;
+}
+
+.libro_precio {
+    color: var(--background-blanco);
+    font-family: var(--font-gothic-text);
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.libro_detalle {
+    color: var(--background-vino-claro);
+    font-family: var(--font-gothic-text);
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .libros_total {
+        flex-wrap: wrap;
+        flex-grow: 4;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .libros_total {
+        flex-wrap: wrap;
+        flex-grow: 2;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .libros_total {
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+}

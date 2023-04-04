@@ -1,0 +1,222 @@
+header {
+    background-color: var(--background-negro);
+}
+
+.cabecera {
+    padding: 2% 5%;
+    justify-content: space-between;
+}
+
+.cabecera_elementos {
+    display: flex;
+}
+
+
+.logo {
+    display: flex;
+    padding-right: 20px;
+}
+
+.logo_img {
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+}
+
+.logo_p1 {
+    font-family: var(--font-gothic-tittle);
+    color: var(--background-blanco);
+    font-size: 25px;
+}
+
+.logo_p2 {
+    font-family: var(--font-gothic-tittle);
+    color: var(--background-vino-claro);
+    font-size: 25px;
+}
+
+.cabecera_usuario {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.cabecera_buscador {
+    display: flex;
+}
+
+.cabecera_buscador input {
+    display: flex;
+    background-color: var(--background-vino-claro);
+    font-family: var(--font-gothic-text);
+    font-size: 12px;
+    color: var(--background-blanco);
+    border: none;
+    border-radius: 20px;
+    height: 24px;
+    width: 600px;
+    margin: 3px;
+    padding: 0 10px;
+    transition: 1s;
+}
+
+.cabecera_buscador ::placeholder {
+    color: var(--background-blanco);
+    font-family: var(--font-gothic-text);
+    padding: 5px;
+    border: none;
+}
+
+input:focus {
+    box-shadow: none;
+    border: none;
+    outline: 0;
+}
+
+.cabecera_buscador img {
+    display: flex;
+    width: 14px;
+    height: 14px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.cabecera_login {
+    display: flex;
+}
+
+.btn-login {
+    background-color: transparent;
+    border: 1.2px solid var(--background-blanco);
+    color: var(--background-blanco);
+    font-family: var(--font-gothic-text);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80px;
+    height: 24px;
+    margin: 3px 0;
+
+}
+
+.btn-login:hover {
+    border: none;
+    color: var(--background-negro);
+    background-color: var(--background-blanco);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .cabecera {
+        padding: 3%;
+    }
+
+    .cabecera_buscador input {
+        width: 300px;
+        transition: 1s;
+    }
+
+    .cabecera_buscador img {
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .cabecera_buscador input {
+        width: 220px;
+        transition: 1s;
+    }
+
+    .cabecera_buscador img {
+        padding-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .cabecera_usuario {
+        display: flex;
+        width: 0;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        transition: 0.8s;
+    }
+
+    .cabecera_elementos {
+        justify-content: space-between;
+    }
+
+    .btn-login {
+        margin-left: 15px;
+    }
+
+    .cabecera_buscador input {
+        background-color: transparent;
+        width: 15px;
+        transition: 0.8s;
+    }
+
+    .cabecera_buscador ::placeholder {
+        background-image: url(../img/logo-busqueda.png);
+        background-repeat: no-repeat;
+        color: transparent;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .cabecera_buscador input:hover {
+        background-color: var(--background-vino-claro);
+        width: 100px;
+        transition: 0.8s;
+    }
+
+
+    .cabecera_buscador img {
+        display: none;
+    }
+
+    .btn-login {
+        margin-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+
+    .cabecera {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecera_elementos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecera_usuario {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo_img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .logo_img,
+    .logo_p1,
+    .logo_p2 {
+        display: none;
+    }
+
+    .btn-login {
+        margin: 0;
+    }
+
+}

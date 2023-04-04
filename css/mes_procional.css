@@ -1,0 +1,96 @@
+.mes_procional {
+    padding: 3% 0;
+    height: 320px;
+    background: linear-gradient(190deg, rgba(0, 0, 0, 0) 20.15%, rgba(0, 0, 0, 0.8) 100%), url(../img/banner-mes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mes_promocional_títulos {
+    position: relative;
+    top: calc(300px / 2);    
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_mes {
+    font-family: var(--font-gothic-tittle);
+    font-size: 45px;
+    color: var(--background-blanco);
+    margin: 0;
+}
+
+.descripcion_mes {
+    font-family: var(--font-gothic-tittle);
+    font-size: 20px;
+    color: var(--background-blanco);
+}
+
+
+.btn {
+    background-color: var(--background-blanco);
+    border: none;
+    color: var(--background-negro);
+    font-family: var(--font-gothic-text);
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+}
+
+.btn:hover {
+    transition: 0.1s;
+    padding: 2px 4px;
+    border-radius: 10px;
+    border-bottom: 2px solid var(--background-vino-claro);
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .mes_procional {
+        padding: 3%;
+    }
+
+    .mes_promocional_títulos {
+        padding: 3%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .titulo_mes {
+        font-size: 35px;
+    }
+    .descripcion_mes {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 12px;
+        width: 120px;
+        height: 25px;
+    }
+    
+
+}
+
+@media screen and (max-width: 350px) {
+
+    .titulo_mes {
+        font-size: 18px;
+    }
+    .descripcion_mes {
+        font-size: 1px;
+    }
+
+    .btn {
+        font-size: 10px;
+        width: 100px;
+        height: 20px;
+    }
+    
+
+}
