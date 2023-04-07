@@ -90,7 +90,7 @@ input:focus {
 }
 
 .btn-login {
-    background-color: transparent;
+    background-color: var(--background-negro);
     border: 1.2px solid var(--background-blanco);
     color: var(--background-blanco);
     font-family: var(--font-gothic-text);

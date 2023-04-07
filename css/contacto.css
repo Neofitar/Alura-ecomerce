@@ -203,7 +203,7 @@ input, textarea:focus{
     }
 
     .contacto_form {
-        width: 50%;
+        width: 68%;
         display: flex;
         flex-direction: column;
         justify-content: center;
