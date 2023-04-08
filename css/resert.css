@@ -50,5 +50,6 @@ table {
 }
 
 a {
+	color: var(--background-blanco);
 	text-decoration: none;
 }
