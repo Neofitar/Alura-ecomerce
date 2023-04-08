@@ -34,6 +34,8 @@
     display: flex;
     justify-content: space-around;
     padding: 0;
+    flex-wrap: wrap;
+    flex-grow: 5;
 }
 
 .libro {
@@ -91,6 +93,11 @@
 }
 
 @media screen and (max-width: 300px) {
+
+    .titulo_seccion {
+        font-size: 14px;
+    }
+
 
     .libros_total {
         flex-wrap: wrap;

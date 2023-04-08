@@ -1,5 +1,4 @@
 .login_form {
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,4 +47,25 @@ input:focus{
     box-shadow: none;
     border: none;
     outline: 0;
+}
+
+
+.btn-ingresar {
+    background-color: var(--background-negro);
+    border: 1.2px solid var(--background-blanco);
+    color: var(--background-blanco);
+    font-family: var(--font-gothic-text);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 20%;
+    margin: 3px 0;
+
+}
+
+.btn-ingresar:hover {
+    transition: 0.5s;
+    border: none;
+    color: var(--background-negro);
+    background-color: var(--background-blanco);
+    font-weight: bold;
 }

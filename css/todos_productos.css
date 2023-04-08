@@ -1,0 +1,59 @@
+.todos_productos {
+    padding: 2% 5%;
+    background-color: var(--background-gris);
+}
+
+.btn_agregar {
+    border: 1px solid var(--background-blanco);
+    font-size: 18px;
+    font-family: var(--font-gothic-tittle);
+    color: var(--background-vino-claro);
+    cursor: pointer;
+    margin: 15px;
+    padding: 8px 20px;
+    border-radius: 90px;
+    color: var(--background-blanco);
+    background-color: var(--background-negro);
+
+}
+
+.btn_agregar img {
+    width: 15px;
+    margin-left: 10px;  
+}
+
+.btn_agregar:hover {
+    background-color: var(--background-vino);
+    color: var(--background-blanco);
+    border: none;
+    transition: 0.5s;
+
+}
+
+@media screen and (max-width: 500px) {
+    .btn_agregar{
+        color: var(--background-vino);
+        transition: 0.5s;
+        font-size: 0;
+    }
+
+    .btn_agregar img {
+        width: 15px;
+        margin: 0;  
+    }
+
+}
+
+@media screen and (max-width: 230px) {
+    .secciones_ver {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .titulo_seccion, .btn_ver {
+        text-align: center;
+        font-size: 16px;
+
+    }
+}

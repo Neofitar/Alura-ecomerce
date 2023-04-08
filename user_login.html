@@ -5,8 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function () {
+            $("#cabecera_1").load("components/cabecera.html");
+            $("#login_1").load("components/login.html");
+            $("#contacto_1").load("components/contacto.html");
+            $("#footer_1").load("components/footer.html");
+        });
+    </script>
+
     <link rel="stylesheet" href="/css/resert.css">
     <link rel="stylesheet" href="./css/colores.css">
+    <link rel="stylesheet" href="./css/cabecera.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/contacto.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,13 +29,28 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300;400;600&family=UnifrakturCook:wght@700&display=swap"
         rel="stylesheet">
-    <title>Créditos Librería</title>
-    <link rel="shortcut icon" href="./img/logo-book.png" type="image/x-icon">
+    <title>Iniciar Sesión</title>
+    <link rel="shortcut icon" href="./img/logo-user.png" type="image/x-icon">
+
 </head>
 
 <body>
-    <footer class="foot" id="footer_1">
-        <p class="foot">Desarrollado por Nicol D. Guevara</p>
-        <p class="foot">&copy;2023</p>
+    <header>
+        <div id="cabecera_1"></div>
+    </header>
+
+    <section>
+        <div id="login_1"></div>
+    </section>
+
+    <section>
+        <div id="contacto_1"></div>
+    </section>
+
+    <footer>
+        <div id="footer_1"></div>
     </footer>
+
 </body>
+
+</html>

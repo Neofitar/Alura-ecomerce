@@ -1,0 +1,60 @@
+.crear_producto {
+    padding: 3% 5%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--background-gris);
+}
+
+.crear_producto_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_titulo_agr {
+    text-align: center;
+    color: var(--background-blanco);
+    font-family: var(--font-gothic-tittle);
+}
+
+.agr_campo {
+    display: block;
+    align-items: center;
+    width: 100%;
+    background-color: var(--background-blanco);
+    border-radius: 10px;
+    padding: 15px;
+    font-family: var(--font-gothic-text);
+    margin-bottom: 10px;
+}
+
+.agr_campo input { 
+    width: 100%;
+    height: 28px;
+    background-color:transparent;
+    border: none;
+    border-bottom: 1px solid var(--background-vino);
+    font-family: var(--font-gothic-text);
+    color: var(--background-gris);
+}
+
+
+input, textarea:focus{
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    margin-bottom: 5px;
+    color: var(--background-gris);
+}
+
+.agr_campo textarea { 
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color:transparent;
+    resize: none;
+    font-family: var(--font-gothic-text);
+    border-bottom: 1px solid var(--background-vino);
+}
+
+

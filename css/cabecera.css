@@ -17,6 +17,10 @@ header {
     padding-right: 20px;
 }
 
+.logo a {
+    text-decoration: none;
+}
+
 .logo_img {
     width: 30px;
     height: 33px;
@@ -98,8 +102,9 @@ input:focus {
     cursor: pointer;
     width: 80px;
     height: 24px;
-    margin: 3px 0;
-
+    text-decoration: none;
+    text-align: center;
+    padding-top: 3px;
 }
 
 .btn-login:hover {
