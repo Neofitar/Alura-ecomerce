@@ -1,0 +1,31 @@
+{
+  "libro": [
+    {
+      "id":"P01",
+      "url":"https://www.udllibros.com/imagenes/9788416/978841696821.JPG?version=98063",
+      "categoría": "Fantasía",
+      "nombre_producto":"El retrato de Dorian Gray",
+      "precio": 45000,
+      "descripcion":"El retrato de Dorian Gray o El cuadro de Dorian Gray es una novela escrita por el autor irlandés Oscar Wilde."
+
+    },
+    {
+      "id":"P01",
+      "url":"https://www.udllibros.com/imagenes/9788416/978841696821.JPG?version=98063",
+      "categoría": "Fantasía",
+      "nombre_producto":"El retrato de Dorian Gray",
+      "precio": 45000,
+      "descripcion":"El retrato de Dorian Gray o El cuadro de Dorian Gray es una novela escrita por el autor irlandés Oscar Wilde."
+
+    },
+    {
+      "id":"P01",
+      "url":"https://www.udllibros.com/imagenes/9788416/978841696821.JPG?version=98063",
+      "categoría": "Fantasía",
+      "nombre_producto":"El retrato de Dorian Gray",
+      "precio": 45000,
+      "descripcion":"El retrato de Dorian Gray o El cuadro de Dorian Gray es una novela escrita por el autor irlandés Oscar Wilde."
+
+    }
+  ]
+}

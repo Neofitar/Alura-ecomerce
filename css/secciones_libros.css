@@ -38,7 +38,7 @@
     flex-grow: 5;
 }
 
-.libro {
+.libros_total il {
     margin: 10px;
     padding: 10px;
     border-radius: 15px;
@@ -56,6 +56,7 @@
     font-family: var(--font-gothic-tittle);
     font-size: 18px;
     margin: 5px;
+    width: 120px;
 }
 
 .libro_precio {
